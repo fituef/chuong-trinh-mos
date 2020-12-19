@@ -2,17 +2,19 @@
 <html>
 
 <head>
-    <title>HỘI THẢO KHOA HỌC CÔNG NGHỆ KHOA CÔNG NGHỆ THÔNG TIN LẦN 2 NĂM 2020 - FIT UEF</title>
+    <title>NỘI DUNG CHƯƠNG TRÌNH CUỘC THI VÔ ĐỊCH TIN HỌC VĂN PHÒNG MOS UEF – LẦN 2 NĂM HỌC 2020 - 2021</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="keywords" content="tham quan doanh nghiep, fituef, fit uef, công nghệ thông tin" />
+    <meta name="description" content="Khoa CNTT và Phòng CTSV Trường Đại học KINH TẾ TẾ TÀI CHÍNH TP.HCM - UEF phối hợp tổ chức cuộc thi Vô địch Tin học Văn phòng UEF – Lần 2 với sự bảo trợ của IIG VIỆT NAM" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta charset="utf-8">
     <style>
-         :root {
+        :root {
             --accent: #F18260;
             --purple: #252431;
         }
-        
+
         .form-container {
             position: relative;
             background: #fff;
@@ -29,11 +31,11 @@
             box-shadow: 0 10px 50px 0 #ccc;
             margin-bottom: 2rem;
         }
-        
+
         .is-hidden {
             display: none !important;
         }
-        
+
         a {
             display: block;
             margin: 0 auto;
@@ -46,32 +48,34 @@
             font-size: 16px;
             text-transform: capitalize;
         }
-        
-        a.td3 {
-            text-align: center !important;
-        }
-        
+
+            a.td3 {
+                text-align: center !important;
+            }
+
         @keyframes rotate {
             100% {
                 transform: rotate(360deg);
             }
         }
-        
+
         @keyframes dash {
             0% {
                 stroke-dasharray: 1, 200;
                 stroke-dashoffset: 0;
             }
+
             50% {
                 stroke-dasharray: 89, 200;
                 stroke-dashoffset: -35;
             }
+
             100% {
                 stroke-dasharray: 89, 200;
                 stroke-dashoffset: -124;
             }
         }
-        
+
         .loading {
             position: absolute;
             top: 0;
@@ -83,33 +87,33 @@
             justify-content: center;
             align-items: center;
         }
-        
+
         .loading-spinner {
             width: 50px;
             height: 50px;
         }
-        
-        .loading-spinner svg {
-            position: relative;
-            animation: rotate 2s linear infinite;
-            height: 50px;
-            width: 50px;
-        }
-        
-        .loading-spinner circle {
-            stroke: var(--accent);
-            stroke-dasharray: 1, 200;
-            stroke-dashoffset: 0;
-            stroke-linecap: round;
-            animation: dash 1.5s ease-in-out infinite;
-        }
-        
+
+            .loading-spinner svg {
+                position: relative;
+                animation: rotate 2s linear infinite;
+                height: 50px;
+                width: 50px;
+            }
+
+            .loading-spinner circle {
+                stroke: var(--accent);
+                stroke-dasharray: 1, 200;
+                stroke-dashoffset: 0;
+                stroke-linecap: round;
+                animation: dash 1.5s ease-in-out infinite;
+            }
+
         p.js-success-message {
             text-align: center;
             font-size: 20px;
             padding: 10px 0px;
         }
-        
+
         table.dtable th,
         table.dtable td,
         table.ntable th,
@@ -119,30 +123,32 @@
             padding: 5px;
             font-weight: normal;
         }
-        
+
         TABLE {
             margin-bottom: 5px;
         }
-        
-        table.dtable,
-        table.ntable {
-            border: 1px #ccc solid;
-            border-collapse: collapse;
-            padding: 5px;
-            width: 100%;
-        }
-        
+
+            table.dtable,
+            table.ntable {
+                border: 1px #ccc solid;
+                border-collapse: collapse;
+                padding: 5px;
+                width: 100%;
+            }
+
         TH {
             background: #f5f5f5;
             font-style: normal;
             color: #167ec2;
         }
-        
+
         TD {
-            padding-right: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
             padding-left: 5px;
+            padding-right: 5px;
         }
-        
+
         .btn-tuyendung {
             float: right;
             border: 2px solid #ae3c33;
@@ -150,40 +156,41 @@
             padding: 10px;
             color: red;
         }
-        
+
         .stt {
+            padding: 3px 0 3px 0;
             font-weight: bold;
             color: white;
         }
-        
+
         #hdth {
             height: 50px;
         }
-        
-        #hdth th {
-            color: white;
-            background: #ed1b2f;
-            width: 30px;
-        }
-        
+
+            #hdth th {
+                color: white;
+                background: #ff6f4ef2;
+                width: 30px;
+            }
+
         .trchan {
             background-color: #0a8075;
         }
-        
+
         .trle {
             background-color: #009688;
         }
-        
-        .trchan a,
-        .trle a {
-            color: white;
-            padding-top: 15px;
-        }
-        
+
+            .trchan a,
+            .trle a {
+                color: white;
+                padding-top: 15px;
+            }
+
         h3 {
             font-size: 20px;
         }
-        
+
         p.tacgia {
             font-size: 18px;
         }
@@ -195,17 +202,17 @@
 <body>
     <div id="container">
         <div id="main-content">
-            <img src="images/bg.jpg" style="max-width: 100% !important;" />
+            <img src="images/bg.jpg" style="max-width: 100% !important; width:150% !important" />
             <div class="col-sm-12" style="overflow-x: auto; margin-top: -3px;">
                 <table class="table" style="width: 100%">
                     <thead>
                         <tr id="hdth">
-                            <th colspan="3" style="text-align: center; background-color: #2c449c; font-size: 20px;">DANH SÁCH BÀI BÁO HỘI THẢO</th>
+                            <th colspan="3" style="text-align: center; background-color: #1e4bf1; font-size: 20px;">NỘI DUNG CHƯƠNG TRÌNH CUỘC THI MOS UEF</th>
                         </tr>
                         <tr id="hdth">
-                            <th>#</th>
-                            <th>TÊN BÀI BÁO</th>
-                            <th style="width: 56px;">MÃ SỐ</th>
+                            <th>STT</th>
+                            <th>THỜI GIAN</th>
+                            <th>NỘI DUNG</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -213,13 +220,164 @@
                             <td align="center">
                                 <span class="stt">01</span>
                             </td>
-                            <td>
-                                <a href="https://drive.google.com/file/d/1pYvQKa9xakn8zxJ3BYYgYw2NxVRbpRV3/view">Khai thác mẫu tuần tự dựa trên ràng buộc. <br><i>(A Survey of Sequential Pattern Mining based on Constraints)</i>
-                                </a>
-                                <p class="tacgia" style="text-align: right; color: yellow;"><i>ThS. Văn Thị Thiên Trang</i></p>
+                            <td align="center">
+                                <span class="stt">07h30 - 11h30<br>28/12/2020</span>
                             </td>
                             <td>
-                                <a class="td3" href="https://drive.google.com/file/d/1pYvQKa9xakn8zxJ3BYYgYw2NxVRbpRV3/view">MS-01</a>
+                                <strong class="stt" style="font-size:15px; color:#fbff00">TỔ CHỨC TẬP HUẤN VÀ THI THỬ</strong>
+                                <p style="color:white; font-size:15px">
+                                    BTC tiến hành tổ chức tập huấn và thi thử cho học sinh - sinh viên đăng ký tham dự tại phòng máy
+                                    <br />+ Ca 1 từ 07h30 – 09h30: Phòng 21.03, 21.04, 21.06, 21.07 <br />+ Ca 2 từ 09h30 – 11h30: Phòng 21.06
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="trchan">
+                            <td align="center">
+                                <span class="stt">02</span>
+                            </td>
+                            <td align="center">
+                                <span class="stt">07h30 – 08h00<br />29/12/2020</span>
+                            </td>
+                            <td>
+                                <strong class="stt" style="font-size:15px;color:#fbff00">KHAI MẠC CUỘC THI</strong>
+                                <p style="color:white; font-size:15px">
+                                    BTC giới thiệu khai mạc cuộc thi gồm thể lệ cuộc thi và nội quy cuộc thi tại Hội trường tầng 15 – UEF
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="trle">
+                            <td align="center">
+                                <span class="stt">03</span>
+                            </td>
+                            <td align="center">
+                                <span class="stt">08h00 - 11h00<br>29/12/2020</span>
+                            </td>
+                            <td>
+                                <strong class="stt" style="font-size:15px; color:#fbff00">THI CÁC NỘI DUNG</strong>
+                                <p style="color:white; font-size:15px">
+                                    - Thi sinh thi tập trung ở phòng máy. <br />
+                                    - Mỗi phần thi dự kiến 50 phút. <br />
+                                    - Thi tại các Phòng máy sau: <br />
+                                    &nbsp;&nbsp;&nbsp; + Ca 1 từ 08h00 – 09h30: Phòng 21.02, 21.05, 21.06. <br />
+                                    &nbsp;&nbsp;&nbsp; + Ca 2 từ 9h30 – 11h00: Phòng 21.06, 21.08.
+                                </p>
+                            </td>
+                        </tr>
+                        <tr class="trchan">
+                            <td align="center">
+                                <span class="stt">04</span>
+                            </td>
+                            <td align="center">
+                                <span class="stt">11h00-11h30<br />29/12/2020</span>
+                            </td>
+                            <td>
+                                <strong class="stt" style="font-size:15px;color:#fbff00">BẾ MẠC VÀ TRAO GIẢI</strong>
+                                <p style="color:white; font-size:15px">
+                                    BTC giới thiệu khai mạc cuộc thi gồm thể lệ cuộc thi và nội quy cuộc thi tại Hội trường tầng 15 – UEF
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr id="hdth">
+                            <th colspan="3" style="text-align: center; background-color: #1e4bf1; font-size: 20px;">THỂ LỆ CUỘC THI</th>
+                        </tr>
+                        <tr id="hdth">
+                            <th colspan="3">ĐỐI TƯỢNG DỰ THI</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="trle">
+                            <td colspan="3">
+                                <p style="color:white; font-size:15px">
+                                    + Tất cả sinh viên của Trường Đại học Kinh tế - Tài chính TP.HCM<br />
+                                    + Đoàn sinh viên Trường Đại học Hutech TPHCM. <br />
+                                    + Thí sinh dự thi tuổi từ 13 đến 22.
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr id="hdth">
+                            <th colspan="3">NỘI DUNG VÀ HÌNH THỨC THI</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="trle">
+                            <td colspan="3">
+
+                                <p style="color:white; font-size:15px">
+                                    <strong class="stt" style="font-size:15px;color:#fbff00">NỘI DUNG</strong><br />
+                                    - Cấp độ của chứng chỉ MOS ở mức Specialist gồm Word, Excel, PowerPoint ở phiên bản office 2016. Mỗi phần thi ít nhất đạt >=700 điểm thì BTC mới ghi nhật kết quả đạt và thi trong vòng 50 phút.<br />
+                                    <strong class="stt" style="font-size:15px;color:#fbff00">HÌNH THỨC</strong><br />
+                                    - Thi trực tiếp trên máy tính đã cài đặt sẵn bộ office 2016 và phần mềm Gmetrix.
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr id="hdth">
+                            <th colspan="3">ĐĂNG KÝ DỰ THI</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="trle">
+                            <td colspan="3">
+                                <p style="color:white; font-size:15px">
+                                    - Ban tổ chức sẽ thông báo link đăng ký cho các thí sinh trên Website , Fanpage của Trường, các Khoa của Đại học UEF và các Website Khoa CNTT Đại học HUTECH <br />
+                                    - Thời gian đăng ký: <I style="color:yellow">20/12/2020 – 27/12/2020</I>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr id="hdth">
+                            <th colspan="3">QUY ĐỊNH ĐỐI VỚI THÍ SINH</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="trle">
+                            <td colspan="3">
+                                <p style="color:white; font-size:15px">
+                                    - Cung cấp trung thực , chính xác thông tin cá nhân khi đăng ký dự thi.<br />
+
+                                    - Thực hiện nghiêm túc các quy định thi do Ban tổ chức đưa ra.<br />
+
+                                    - Các thông tin cá nhân của thí sinh có thể được Ban tổ chức sử dụng để thông báo kết quả thi và quảng bá, truyền thông cho Cuộc thi trên Website và Fanpage của Trường, Khoa UEF.<br />
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr id="hdth">
+                            <th colspan="3" style="text-align: center; background-color: #1e4bf1; font-size: 20px;">CƠ CẤU GIẢI THƯỞNG</th>
+                        </tr>
+                        <tr id="hdth">
+                            <th>STT</th>
+                            <th>GIẢI THƯỞNG</th>
+                            <th>GIÁ TRỊ GIẢI THƯỞNG</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="trle">
+                            <td align="center">
+                                <span class="stt">01</span>
+                            </td>
+
+                            <td>
+                                <strong class="stt" style="font-size:15px; color:#fbff00">03 GIẢI NHẤT</strong>
+                                <p style="color:white; font-size:15px">
+                                    - 01 giải nhất Word <br />
+                                    - 01 giải nhất Excel <br />
+                                    - 01 giải nhất PowerPoint <br />
+                                    - Kèm giấy chứng nhận đạt giải của BTC<br />
+                                </p>
+                            </td>
+                            <td> 
+                                <p style="color:white; font-size:15px">
+                                    - Mỗi giải trị giá <b>1,200,000 VNĐ</b> <br />
+                                    - Voucher trị giá 410.000 lệ phí dự thi Vòng loại Quốc gia cuộc thi Vô địch Tin học Văn phòng Thế giới – Viettel năm 2021.
+                                </p> 
                             </td>
                         </tr>
                         <tr class="trchan">
@@ -227,152 +385,47 @@
                                 <span class="stt">02</span>
                             </td>
                             <td>
-                                <a href="https://drive.google.com/file/d/1VJkP1Tg9rvUHWBKF6RaTXf6AMdJPGatx/view">Ứng dụng thuật toán di truyền thích nghi nhằm nâng cao hiệu suất truyền thông cho mạng di động thế hệ thứ 5.<br><i>(Application of adaptive genetic algorithm to improve the communication efficiency of 5G network)</i>
-                                    </a>
-                                <p class="tacgia" style="text-align: right; color: yellow;"><i>TS. Huỳnh Đệ Thủ</i></p>
+                                <span class="stt" style="font-size:15px; color:#fbff00">06 GIẢI NHÌ</span>
+                                <p style="color:white; font-size:15px">
+                                    - 02 giải nhì Word <br />
+                                    - 02 giải nhì Excel <br />
+                                    - 02 giải nhì PowerPoint <br />
+                                    - Kèm giấy chứng nhận đạt giải của BTC<br />
+                                </p>
                             </td>
                             <td>
-                                <a class="td3" href="https://drive.google.com/file/d/1VJkP1Tg9rvUHWBKF6RaTXf6AMdJPGatx/view">MS-02</a>
+                                <p style="color:white; font-size:15px">
+                                    - Mỗi giải trị giá <b>800,000 VNĐ</b> <br />
+                                    - Voucher trị giá 410.000 lệ phí dự thi Vòng loại Quốc gia cuộc thi Vô địch Tin học Văn phòng Thế giới – Viettel năm 2021.
+                                </p>
                             </td>
                         </tr>
                         <tr class="trle">
                             <td align="center">
                                 <span class="stt">03</span>
                             </td>
+
                             <td>
-                                <a href="https://drive.google.com/file/d/1So6qQeI90Fi9wnB34C4ckar42yWIwHx3/view">Hệ thống quản lý hoạt động khoa học công nghệ.<br><i>(Science & technology management information system)</i>
-                                </a>
-                                <p class="tacgia" style="text-align: right; color: yellow;"><i>ThS. Văn Thị Thiên Trang <br>KS. Hoàng Văn Hiếu</i></p>
-                            </td>
-                            <td>
-                                <a class="td3" href="https://drive.google.com/file/d/1So6qQeI90Fi9wnB34C4ckar42yWIwHx3/view">MS-03</a>
-                            </td>
-                        </tr>
-                        <tr class="trchan">
-                            <td align="center">
-                                <span class="stt">04</span>
+                                <strong class="stt" style="font-size:15px; color:#fbff00">06 GIẢI BA</strong>
+                                <p style="color:white; font-size:15px">
+                                    - 02 giải ba Word <br />
+                                    - 02 giải ba Excel <br />
+                                    - 02 giải ba PowerPoint <br />
+                                    - Kèm giấy chứng nhận đạt giải của BTC<br />
+                                </p>
                             </td>
                             <td>
-                                <a href="https://drive.google.com/file/d/1fp1WaLXL1p12Evx_ijwBgyaSjBsHIBbS/view">Utilizing 4-P model in e-commerce: an approach for low-performance products.
-                                    </a>
-                                <p class="tacgia" style="text-align: right; color: yellow;"><i>ThS. Nguyễn Quang Minh</i></p>
-                            </td>
-                            <td>
-                                <a class="td3" href="https://drive.google.com/file/d/1fp1WaLXL1p12Evx_ijwBgyaSjBsHIBbS/view">MS-04</a>
-                            </td>
-                        </tr>
-                        <tr class="trle">
-                            <td align="center">
-                                <span class="stt">05</span>
-                            </td>
-                            <td>
-                                <a href="https://drive.google.com/file/d/1WxHozG_OmvgkVNm1p6_v3vsc03ZZf8Gy/view">Xây dựng phần mềm ứng dụng mã qr quản trị thông tin thiết bị cơ sở vật chất của trường đại học kinh tế - tài chính thành phố hồ chí minh
-                                </a>
-                                <p class="tacgia" style="text-align: right; color: yellow;"><i>ThS. Nguyễn Minh Tuấn</i></p>
-                            </td>
-                            <td>
-                                <a class="td3" href="https://drive.google.com/file/d/1WxHozG_OmvgkVNm1p6_v3vsc03ZZf8Gy/view">MS-05</a>
-                            </td>
-                        </tr>
-                        <tr class="trchan">
-                            <td align="center">
-                                <span class="stt">06</span>
-                            </td>
-                            <td>
-                                <a href="https://drive.google.com/file/d/1HpstLtA0BfDprzqWZ-gpl-MkDSF9xIel/view">Giới thiệu về nền tảng windows azure.
-                                    </a>
-                                <p class="tacgia" style="text-align: right; color: yellow;"><i>ThS. Nguyễn Minh Tuấn</i></p>
-                            </td>
-                            <td>
-                                <a class="td3" href="https://drive.google.com/file/d/1HpstLtA0BfDprzqWZ-gpl-MkDSF9xIel/view">MS-06</a>
-                            </td>
-                        </tr>
-                        <tr class="trle">
-                            <td align="center">
-                                <span class="stt">07</span>
-                            </td>
-                            <td>
-                                <a href="https://drive.google.com/file/d/1lydova4T2wULvsij3UP_pvqMNUnUERGW/view">Triển khai nhà thông minh và quản lý thiết bị iot trên cisco packet tracer.
-                                </a>
-                                <p class="tacgia" style="text-align: right; color: yellow;"><i>KS. Nguyễn Minh Thắng</i></p>
-                            </td>
-                            <td>
-                                <a class="td3" href="https://drive.google.com/file/d/1lydova4T2wULvsij3UP_pvqMNUnUERGW/view">MS-07</a>
-                            </td>
-                        </tr>
-                        <tr class="trchan">
-                            <td align="center">
-                                <span class="stt">08</span>
-                            </td>
-                            <td>
-                                <a href="https://drive.google.com/file/d/1N2-Z7JIcqGpfZjNGenP1hxNI0FwJYVjk/view">Phân loại cảm xúc người dùng trong các bài đăng trên mạng xã hội.
-                                    </a>
-                                <p class="tacgia" style="text-align: right; color: yellow;"><i>TS. Nguyễn Hà Giang <br>ThS. Nguyễn Đình Ánh <br>KS. Hoàng Văn Hiếu</i></p>
-                            </td>
-                            <td>
-                                <a class="td3" href="https://drive.google.com/file/d/1N2-Z7JIcqGpfZjNGenP1hxNI0FwJYVjk/view">MS-08</a>
-                            </td>
-                        </tr>
-                        <tr class="trle">
-                            <td align="center">
-                                <span class="stt">09</span>
-                            </td>
-                            <td>
-                                <a href="https://drive.google.com/file/d/1AGuoV4RcafAMih52Ya-7wFE9YCzinxYG/view">Phân tích tác động của các cơ chế bảo mật đối với thông lượng mạng WLAN.
-                                </a>
-                                <p class="tacgia" style="text-align: right; color: yellow;"><i>TS. Huỳnh Đệ Thủ</i></p>
-                            </td>
-                            <td>
-                                <a class="td3" href="https://drive.google.com/file/d/1AGuoV4RcafAMih52Ya-7wFE9YCzinxYG/view">MS-09</a>
-                            </td>
-                        </tr>
-                        <tr class="trchan">
-                            <td align="center">
-                                <span class="stt">10</span>
-                            </td>
-                            <td>
-                                <a href="https://drive.google.com/file/d/1VTtF4N3KQOPQ3fJNYH2Ck7qlSWhtOtcJ/view">Phân tích các phương pháp giảng dạy xác suất thống kê ở các trường đại học hiện nay và đề xuất giải pháp cải thiện.
-                                    </a>
-                                <p class="tacgia" style="text-align: right; color: yellow;"><i>ThS. Trương Nhã Bình</i></p>
-                            </td>
-                            <td>
-                                <a class="td3" href="https://drive.google.com/file/d/1VTtF4N3KQOPQ3fJNYH2Ck7qlSWhtOtcJ/view">MS-10</a>
-                            </td>
-                        </tr>
-                        <tr class="trle">
-                            <td align="center">
-                                <span class="stt">11</span>
-                            </td>
-                            <td>
-                                <a href="https://drive.google.com/file/d/1MyaRju-HiUSMpVRqHZkYCJfaJiv1gJpC/view">Kỹ thuật tạo bảng phân phối tần số trong thống kê mô tả.
-                                </a>
-                                <p class="tacgia" style="text-align: right; color: yellow;"><i>ThS. Ngô Văn Công Bằng</i></p>
-                            </td>
-                            <td>
-                                <a class="td3" href="https://drive.google.com/file/d/1MyaRju-HiUSMpVRqHZkYCJfaJiv1gJpC/view">MS-11</a>
-                            </td>
-                        </tr>
-                        <tr class="trchan">
-                            <td align="center">
-                                <span class="stt">12</span>
-                            </td>
-                            <td>
-                                <a href="https://drive.google.com/file/d/1YgsMmgjfaaTZSeT5250ca0JgLQXvV39t/view">Ảnh hưởng của công nghệ thông tin lên cách thực hành báo chí tại việt nam.<br><i>(effects of icts on journalism in vietnam)</i> 
-                                    </a>
-                                <p class="tacgia" style="text-align: right; color: yellow;"><i>ThS. Hoàng Mi</i></p>
-                            </td>
-                            <td>
-                                <a class="td3" href="https://drive.google.com/file/d/1YgsMmgjfaaTZSeT5250ca0JgLQXvV39t/view">MS-12</a>
+                                <p style="color:white; font-size:15px">
+                                    - Mỗi giải trị giá <b>500,000 VNĐ</b> <br />
+                                    - Voucher trị giá 410.000 lệ phí dự thi Vòng loại Quốc gia cuộc thi Vô địch Tin học Văn phòng Thế giới – Viettel năm 2021.
+                                </p>
                             </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
-        <script type="text/javascript" src="js/do_get_info.js">
-        </script>
-
-        <p style="text-align:center">&copy; 2020 Faculty Of Information Technology</p>
+        <p style="text-align:center">&copy; 2020 TEAM DEV OF FITUEF - MOS UEF 2020</p>
         <p>
         </p>
     </div>
